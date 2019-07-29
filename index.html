@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>MGR</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.4.1.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/0.10.0/lodash.min.js"></script>
+    <script src="script.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="portfolio.css">
+    <link rel="stylesheet" type="text/css" href="image_gallery.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+<body>
+
+        
+
+<!-- Header -->
+<div class="header">
+        
+    <ul>
+        <i class="fa fa-home" id="home" style="font-size: 15px; float: left"></i>
+        <li id="about-section">About</li>
+        <li id="photos-section">Photos</li>
+        <li>Contact</li>
+    </ul>
+</div>
+
+<div class="parallax"></div>
+
+<div class="row top about">
+<div class="main">
+    <div class="row">
+        <div class="column" style="width: 180px">
+            <div class="flip-card">
+                <div class="flip-card-inner">
+                    <div class="flip-card-front">
+                        <img src="https://www.w3schools.com/howto/img_avatar.png" alt="Avatar" style="width:150px;height:150px;margin: 0;">
+                    </div>
+                    <div class="flip-card-back">
+                        <img src="https://www.w3schools.com//w3images/falls2.jpg" alt="Avatar" style="width:150px;height:150px;margin: 0;">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="column-about-extended">
+                <span class="more">
+                   Test test test Test test test Test test test Test test test Test test test 
+                   Test test test Test test test Test test test Test test test Test test test 
+                   Test test test Test test test Test test test Test test test Test test test 
+                   Test test test Test test test Test test test Test test test Test test test 
+                   Test test test Test test test Test test test Test test test Test test test 
+                   Test test test Test test test Test test test Test test test Test test test 
+                   Test test test Test test test Test test test Test test test Test test test 
+                   Test test test Test test test Test test test Test test test Test test test 
+                   Test test test Test test test Test test test Test test test Test test test 
+                   Test test test Test test test Test test test Test test test Test test test 
+                   Test test test Test test test Test test test Test test test Test test test 
+                   Test test test Test test test Test test test Test test test Test test test 
+                   Test test test Test test test Test test test Test test test Test test test 
+                   Test test test Test test test Test test test Test test test Test test test 
+                   Test test test Test test test Test test test Test test test Test test test 
+                   Test test test Test test test Test test test Test test test Test test test 
+                   Test test test Test test test Test test test Test test test Test test test 
+                   Test test test Test test test Test test test Test test test Test test test 
+                   Test test test Test test test Test test test Test test test Test test test 
+                   Test test test Test test test Test test test Test test test Test test test 
+                   Test test test Test test test Test test test Test test test Test test test 
+                   Test test test Test test test Test test test Test test test Test test test 
+                </span>
+        </div>
+    </div>
+    <div class="row top-cols">
+
+        <div class="column-about">
+            <h2>Test</h2>
+            <span class="more">
+               Test test test Test test test Test test test Test test test Test test test 
+               Test test test Test test test Test test test Test test test Test test test 
+               Test test test Test test test Test test test Test test test Test test test 
+            </span>
+
+        </div>
+        <div class="column-about">
+                <h2>Test</h2>
+                <p>Test test test Test test test Test test test Test test test Test test test </p>
+            </div>
+        <div class="column-about">
+            <h2>Test</h2>
+            <p>Test test test Test test test Test test test Test test test Test test test </p>
+        </div>
+        <div class="column-about">
+            <h2>Test</h2>
+            <p>Test test test Test test test Test test test Test test test Test test test </p>
+        </div>
+        
+    </div>
+    <div class="row">
+        <div class="column-about">
+            <h2>Test</h2>
+            <p>Test test test Test test test Test test test Test test test Test test test </p>
+        </div>
+        <div class="column-about">
+            <h2>Test</h2>
+            <p>Test test test Test test test Test test test Test test test Test test test </p>
+        </div>
+        <div class="column-about">
+            <h2>Test</h2>
+            <p>Test test test Test test test Test test test Test test test Test test test </p>
+        </div>
+        <div class="column-about">
+            <h2>Test</h2>
+            <p>Test test test Test test test Test test test Test test test Test test test </p>
+        </div>
+    </div>
+
+</div>
+
+</div>
+
+
+<div class="parallax"></div>
+
+
+<!-- Photo Grid -->
+<div class="main">
+<div class="row photo-grid"> 
+  <div class="photo-grid-title"></div>
+  <div class="column">
+    <img src="https://www.w3schools.com//w3images/wedding.jpg" style="width:100%">
+    <img src="https://www.w3schools.com//w3images/rocks.jpg" style="width:100%">
+    <img src="https://www.w3schools.com//w3images/falls2.jpg" style="width:100%">
+  </div>
+  <div class="column">
+    <img src="https://www.w3schools.com//w3images/underwater.jpg" style="width:100%">
+    <img src="https://www.w3schools.com//w3images/ocean.jpg" style="width:100%">
+    <img src="https://www.w3schools.com//w3images/wedding.jpg" style="width:100%">
+  </div>  
+  <div class="column photo">
+        <video width="250" height="170" poster="" controls>
+            <source src="https://www.w3schools.com/tags/movie.mp4" type="video/mp4">
+            <source src="https://www.w3schools.com/tags/movie.ogg" type="video/ogg">
+            Your browser does not support the video tag.
+         </video>
+    <p id="img-text"></p>
+  </div>  
+  
+</div>
+</div>
+
+<div class="parallax"></div>
+
+
+<div class="main">
+    <h2 style="color: white">PORTFOLIO</h2>        
+    <div id="myBtnContainer">
+        <button class="btn active" onclick="filterSelection('all')"> Show all</button>
+        <button class="btn" onclick="filterSelection('bodyboard')"> Bodyboard</button>
+        <button class="btn" onclick="filterSelection('motocross')"> Motocross</button>
+        <button class="btn" onclick="filterSelection('cars')"> Cars</button>
+        <button class="btn" onclick="filterSelection('nature')"> Nature</button>
+        <button class="btn" onclick="filterSelection('people')"> People</button>
+    </div>
+    <!-- Portfolio Gallery Grid -->
+    <div class="row portfolio"></div>
+</div>    
+
+<!-- The Modal -->
+<div id="myModal" class="modal">
+    <!-- Modal content -->
+    <div class="modal-content">
+        <!-- <div class="modal-header">
+            <span class="close">&times;</span>
+            <h2>Modal Header</h2>
+        </div> -->
+        <div class="modal-body">
+            <div class="container" style="background-color: gray">            
+                <img id="expandedImg" style="width:100%">
+                <div id="imgtext"></div>
+            </div>
+        </div>
+        <!-- <div class="modal-footer">
+            <h3>Modal Footer</h3>
+        </div> -->
+    </div>
+</div>
+
+<div class="parallax"></div>
+
+<div class="main">
+<div class="row">
+        <div class="column-about">
+            <h2>Test</h2>
+            <p>Test test test Test test test Test test test Test test test Test test test </p>
+        </div>
+        <div class="column-about">
+            <h2>Test</h2>
+            <p>Test test test Test test test Test test test Test test test Test test test </p>
+        </div>
+        <div class="column-about">
+            <h2>Test</h2>
+            <p>Test test test Test test test Test test test Test test test Test test test </p>
+        </div>
+        <div class="column-about">
+            <h2>Test</h2>
+            <p>Test test test Test test test Test test test Test test test Test test test </p>
+        </div>
+    </div>
+</div>
+
+<div class="row footer">
+        All rights reserved @ 2019
+</div>
+
+
+<!-- Modal with image clicked expanded -->
+<script>
+
+    // Get the modal
+    var modal = document.getElementById("myModal");
+
+    // Get the <span> element that closes the modal
+    var span = document.getElementsByClassName("close")[0];
+
+    // When the user clicks on <span> (x), close the modal
+    // span.onclick = function() {
+    //     modal.style.display = "none";
+    // }
+
+    // When photo clicked it opens the modal with it expanded
+    function myFunction(imgs) {
+        var expandImg = document.getElementById("expandedImg");
+        var imgText = document.getElementById("imgtext");
+        expandImg.src = imgs.src;
+        imgText.innerHTML = imgs.alt;
+        expandImg.parentElement.style.display = "block";
+        modal.style.display = "block";
+    }
+
+    // When the user clicks anywhere outside of the modal, close it
+    window.onclick = function(event) {
+        if (event.target == modal) {
+        modal.style.display = "none";
+        }
+    }
+        
+</script>
+
+<script>
+$(document).ready(function() {
+    // Configure/customize these variables.
+    var showChar = 1700;  // How many characters are shown by default
+    var ellipsestext = "...";
+    var moretext = "Show more >";
+    var lesstext = "Show less";
+    
+
+    $('.more').each(function() {
+        var content = $(this).html();
+ 
+        if(content.length > showChar) { 
+            var c = content.substr(0, showChar);
+            var h = content.substr(showChar, content.length - showChar); 
+            var html = c + '<span class="moreellipses">' + ellipsestext+ '&nbsp;</span><span class="morecontent"><span>' + h + '</span>&nbsp;&nbsp;<a href="" class="morelink">' + moretext + '</a></span>'; 
+            $(this).html(html);
+        }
+ 
+    });
+ 
+    $(".morelink").click(function(){
+        if($(this).hasClass("less")) {
+            $(this).removeClass("less");
+            $(this).html(moretext);
+        } else {
+            $(this).addClass("less");
+            $(this).html(lesstext);
+        }
+        $(this).parent().prev().toggle();
+        $(this).prev().toggle();
+        return false;
+    });
+});
+</script>
+
+<script>
+    filterSelection("all")
+    function filterSelection(c) {
+        var x, i;
+        x = document.getElementsByClassName("column");
+        if (c == "all") c = "";
+        for (i = 0; i < x.length; i++) {
+        w3RemoveClass(x[i], "show");
+        if (x[i].className.indexOf(c) > -1) w3AddClass(x[i], "show");
+        }
+    }
+    
+    function w3AddClass(element, name) {
+        var i, arr1, arr2;
+        arr1 = element.className.split(" ");
+        arr2 = name.split(" ");
+        for (i = 0; i < arr2.length; i++) {
+        if (arr1.indexOf(arr2[i]) == -1) {element.className += " " + arr2[i];}
+        }
+    }
+    
+    function w3RemoveClass(element, name) {
+        var i, arr1, arr2;
+        arr1 = element.className.split(" ");
+        arr2 = name.split(" ");
+        for (i = 0; i < arr2.length; i++) {
+        while (arr1.indexOf(arr2[i]) > -1) {
+            arr1.splice(arr1.indexOf(arr2[i]), 1);     
+        }
+        }
+        element.className = arr1.join(" ");
+    }
+    
+    
+    // Add active class to the current button (highlight it)
+    var btnContainer = document.getElementById("myBtnContainer");
+    var btns = btnContainer.getElementsByClassName("btn");
+    for (var i = 0; i < btns.length; i++) {
+        btns[i].addEventListener("click", function(){
+        var current = document.getElementsByClassName("active");
+        current[0].className = current[0].className.replace(" active", "");
+        this.className += " active";
+        });
+    }
+</script>
+
+
+
+
+
+
+
+
+
+</body>
+</html>

@@ -1,0 +1,42 @@
+<!-- The four columns -->
+<!-- when clicked an image it expands -->
+<!-- 
+<div class="row">
+<div class="column">
+    <img src="https://www.w3schools.com/howto/img_nature.jpg" alt="Nature" style="width:100%" onclick="myFunction(this);">
+</div>
+<div class="column">
+    <img src="https://www.w3schools.com/howto/img_snow.jpg" alt="Snow" style="width:100%" onclick="myFunction(this);">
+</div>
+<div class="column">
+    <img src="https://www.w3schools.com/howto/img_mountains.jpg" alt="Mountains" style="width:100%" onclick="myFunction(this);">
+</div>
+<div class="column">
+    <img src="https://www.w3schools.com/howto/img_lights.jpg" alt="Lights" style="width:100%" onclick="myFunction(this);">
+</div>
+</div>
+
+<div class="container">
+<span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+<img id="expandedImg" style="width:100%">
+<div id="imgtext"></div>
+</div> -->
+
+
+<!-- Flipboard when mouse hover an image it flips to show the back -->
+<!--
+<div class="row" style="height: 660px;">
+    <div class="flip-card">
+    <div class="flip-card-inner">
+        <div class="flip-card-front">
+        <img src="https://www.w3schools.com/howto/img_avatar.png" alt="Avatar" style="width:300px;height:300px;">
+        </div>
+        <div class="flip-card-back">
+        <h1>John Doe</h1> 
+        <p>Architect & Engineer</p> 
+        <p>We love that guy</p>
+        </div>
+    </div>
+    </div>
+</div>
+-->
