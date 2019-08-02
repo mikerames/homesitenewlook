@@ -17,6 +17,7 @@
         imgUrlBack: "https://www.w3schools.com//w3images/lights.jpg"
     }]
 
+    // used by 
     function filterSelection(c) {
         var x, i;
         x = document.getElementsByClassName("column");
@@ -37,6 +38,7 @@
         }
     }
     
+    // removes  show class to element which consists in hide it
     function w3RemoveClass(element, name) {
         var i, arr1, arr2;
         arr1 = element.className.split(" ");
@@ -178,3 +180,9 @@ $(document).ready(function() {
 
 
 });
+
+
+
+
+
+
