@@ -80,6 +80,12 @@ $(document).ready(function() {
         }, 500);
     });
 
+    $("#contact-section").click(function() {
+        $('html, body').animate({
+            scrollTop: $(".contact").offset().top
+        }, 500);
+    });
+
 
 
 
