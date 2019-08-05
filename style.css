@@ -125,18 +125,34 @@ h2 {
   padding: 10px;
 }
 
+.column-bodyboard {
+
+}
+
+.column-rides {
+    float: left;
+    width: 200px;
+    padding: 10px;
+    height: 150px;
+    color: white;
+    text-align:justify;  
+    /* font-family: "Lucida Console", Monaco, monospace; */
+    font-family: 'Varela';font-size: 15px;
+    letter-spacing: 1px;
+    line-height: 1.6;
+}
 
 .column-about {
-  float: left;
-  width: 350px;
-  padding: 10px;
-  height: 150px;
-  color: white;
-  text-align:justify;  
-  /* font-family: "Lucida Console", Monaco, monospace; */
-  font-family: 'Varela';font-size: 15px;
-  letter-spacing: 1px;
-  line-height: 1.6;
+    float: left;
+    width: 350px;
+    padding: 10px;
+    height: 150px;
+    color: white;
+    text-align:justify;  
+    /* font-family: "Lucida Console", Monaco, monospace; */
+    font-family: 'Varela';font-size: 15px;
+    letter-spacing: 1px;
+    line-height: 1.6;
 }
 
 .column-about-extended {
@@ -222,7 +238,7 @@ body {font-family: Arial, Helvetica, sans-serif;}
   -webkit-animation-name: animatetop;
   -webkit-animation-duration: 0.4s;
   animation-name: animatetop;
-  animation-duration: 0.4s
+  animation-duration: 0.4s;
 }
 
 input[type=text], select, textarea {
@@ -251,6 +267,7 @@ input[type=text], select, textarea {
   
   .container {
     border-radius: 5px;
-    background-color: #f2f2f2;
-    padding: 20px;
+    padding: 5px;
+    background-color: #400000;
+    color: white;
   }

@@ -1,6 +1,11 @@
-    // API 
+// game api
+let gameAPIkey = "672d6da1f80133b327d59587df3fda6a";
+
+
+          // API 
     let url = 'http://nodejstodomike.herokuapp.com/api/todos';
 
+    let news = [];
     let portfPhotos = [];
     let portfCategories = [];
     let portfBtnFiltersTemplate;
@@ -125,7 +130,6 @@ $(document).ready(function() {
         "</div>"
     );
 
-    
     // Append portfolio data to template  
     profilePhotos.forEach(function(photo) {
         $(".profile").append(profileCardTemplate({
@@ -134,8 +138,6 @@ $(document).ready(function() {
             alt: photo.alt
         }));
     })
-
- 
 
     // Creates the portfolio section with data retrieved
     function createPortfolioSection(photo) {
@@ -173,16 +175,38 @@ $(document).ready(function() {
     }
 
 
-    // REQUEST TO NODEJS
-    $.get(url)
-    .done(
-        function(response) {
-            portfCategories.push('all'),
-            createPortfolioSection(response);          
-        }
-    );
 
-        
+    // REQUEST TO NODEJS
+
+    // Portfolio json data
+    $.ajax({
+        url: url,
+        success: function(response) {
+            portfCategories.push('all'),
+            createPortfolioSection(response);
+        }
+    });
+
+
+    // $.ajax({
+    //     url: "https://api-v3.igdb.com/games",
+    //     method: 'POST',
+    //     headers: {
+    //         'Accept': 'application/json',
+    //         'user-key': gameAPIkey
+    //     },
+    //     data: "fields achievement_icon,category,created_at,description,external_id,game,language,locked_achievement_icon,name,owners,owners_percentage,rank,slug,tags,updated_at;"
+    //   })
+    //     .then(response => {
+    //         console.log(response.data);
+    //     })
+    //     .catch(err => {
+    //         console.error(err);
+    //     });
+
+    
+
+
 
 
 });
