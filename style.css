@@ -111,9 +111,6 @@ body {
   height: 600px;
 }
 
-.top-cols {
-}
-
 h2 {
     font-family: "Lucida Console", Monaco, monospace;
 }
@@ -125,10 +122,6 @@ h2 {
   padding: 10px;
 }
 
-.column-bodyboard {
-
-}
-
 .column-rides {
     float: left;
     width: 200px;
@@ -136,7 +129,13 @@ h2 {
     height: 150px;
     color: white;
     text-align:justify;  
-    /* font-family: "Lucida Console", Monaco, monospace; */
+    font-family: 'Varela';font-size: 15px;
+    letter-spacing: 1px;
+    line-height: 1.6;
+}
+
+.column-bodyboard {
+    text-align: justify;
     font-family: 'Varela';font-size: 15px;
     letter-spacing: 1px;
     line-height: 1.6;
@@ -198,6 +197,7 @@ li:hover {
 
 .footer {
     text-align: center;
+    font-family: 'Varela';font-size: 10px;
     margin-bottom: 5px;
 }
 
@@ -226,22 +226,22 @@ body {font-family: Arial, Helvetica, sans-serif;}
   background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
 }
 
-/* Modal Content */
-.modal-content {
-  position: relative;
-  background-color: #fefefe;
-  margin: auto;
-  padding: 0;
-  border: 1px solid #888;
-  width: 90%;
-  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
-  -webkit-animation-name: animatetop;
-  -webkit-animation-duration: 0.4s;
-  animation-name: animatetop;
-  animation-duration: 0.4s;
-}
+  /* Modal Content */
+  .modal-content {
+    position: relative;
+    background-color: #fefefe;
+    margin: auto;
+    padding: 0;
+    border: 1px solid #888;
+    width: 90%;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+    -webkit-animation-name: animatetop;
+    -webkit-animation-duration: 0.4s;
+    animation-name: animatetop;
+    animation-duration: 0.4s;
+  }
 
-input[type=text], select, textarea {
+  input[type=text], select, textarea {
     width: 100%;
     padding: 12px;
     border: 1px solid #ccc;
@@ -271,3 +271,42 @@ input[type=text], select, textarea {
     background-color: #400000;
     color: white;
   }
+
+  .fa {
+      margin: 2px;
+  }
+
+  .fa:hover {
+    opacity: 0.7;
+    cursor: pointer;
+  }
+
+img:hover {
+    opacity: 0.9;
+    cursor: pointer;    
+}
+
+.box {
+    background-color: #444;
+    color: #fff;
+    font-size: 150%;
+    width: 60px;
+    height: 60px;
+  }
+  
+  .box:nth-child(even) {
+    background-color: #ccc;
+    color: #000;
+    width: 60px;
+    height: 60px;
+  }
+  
+  .wrapper {
+    width: 250px;
+    display: grid;
+    grid-gap: 5px;
+    grid-template-columns: repeat(0, 100px);
+    grid-template-rows: 60px 60px 60px;
+    grid-auto-flow: column;
+  }
+  

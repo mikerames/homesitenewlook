@@ -1,7 +1,4 @@
 // game api
-let gameAPIkey = "672d6da1f80133b327d59587df3fda6a";
-
-
           // API 
     let url = 'http://nodejstodomike.herokuapp.com/api/todos';
 
@@ -186,7 +183,6 @@ $(document).ready(function() {
             createPortfolioSection(response);
         }
     });
-
 
     // $.ajax({
     //     url: "https://api-v3.igdb.com/games",
